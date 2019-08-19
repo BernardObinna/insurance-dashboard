@@ -2,4 +2,13 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.clippy {
+  -webkit-clip-path: polygon(75% 0, 100% 25%, 100% 60%, 100% 100%, 25% 100%, 0 75%, 0 0);
+          clip-path: polygon(75% 0, 100% 25%, 100% 60%, 100% 100%, 25% 100%, 0 75%, 0 0);
+}
+
+.clippyBack {
+  background-color: #00CBA6;
+}
 /*# sourceMappingURL=main.css.map */

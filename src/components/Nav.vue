@@ -32,29 +32,37 @@
         </li>
       </ul>
 
-      <div class="container">
-        <div class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            data-toggle="dropdown"
-            href="#"
-            role="button"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >Dropdown</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
-          </div>
-        </div>
+      <!-- <div class="container"> -->
+      <!-- <div class="btn-group" role="group" aria-label="Basic example"> -->
+      <div class="clippyBack">
+        <!-- <button type="button" class="btn btn-success clippy">LD</button> -->
+        <!-- <button type="button" class="clippy">LD</button> -->
+        <div class="btn btn-success clippy">LD</div>
       </div>
-      <!-- <form class="form-inline my-2 my-lg-0">
+      <div class="dropdown">
+        <!-- <button class="btn btn-light dropdown"> -->
+        <a
+          class="dropdown-toggle"
+          data-toggle="dropdown"
+          href="#"
+          role="button"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >Dropdown</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+        <!-- </div> -->
+        <!-- </button> -->
+        <!-- <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>-->
+        </form>-->
+      </div>
     </div>
   </nav>
 </template>

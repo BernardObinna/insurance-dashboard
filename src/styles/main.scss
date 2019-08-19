@@ -2,3 +2,13 @@
     // background-color: aqua;
     box-sizing: border-box;
 }
+
+.clippy {
+    clip-path: polygon(75% 0, 100% 25%, 100% 60%, 100% 100%, 25% 100%, 0 75%, 0 0);
+    
+    // background-color: #00CB3C
+}
+
+.clippyBack {
+    background-color: #00CBA6;
+}
