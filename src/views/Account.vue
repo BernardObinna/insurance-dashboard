@@ -90,22 +90,14 @@
                 <input type="date" class="form-control" id="inputEmail4" placeholder="Email">
               </div>
             </div>
-            <button type="submit" class="btn btn-warning">Save Changes</button>
-          </form>
-
-          <form class="text-left">
             <div class="form-row">
               <div class="form-group col-4">
-                <label for="inputEmail4">CURRENT PASSWORD</label>
-                <input type="password" class="form-control" id="inputEmail4" placeholder="password">
+                <label for="inputEmail4">SENETORIAL DISTRICT</label>
+                <input type="text" class="form-control" id="inputEmail4">
               </div>
               <div class="form-group col-4">
-                <label for="inputEmail4">NEW PASSWORD</label>
-                <input type="password" class="form-control" id="inputEmail4" placeholder="Username">
-              </div>
-              <div class="form-group col-4">
-                <label for="inputEmail4">CONFIRM PASSWORD</label>
-                <input type="password" class="form-control" id="inputEmail4" placeholder="Email">
+                <label for="inputEmail4">STATE CONSTITUENCIES</label>
+                <input type="text" class="form-control" id="inputEmail4">
               </div>
             </div>
             <button type="submit" class="btn btn-warning">Save Changes</button>
