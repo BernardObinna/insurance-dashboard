@@ -6,10 +6,8 @@
         <div class="card w-100 px-4 py-3" style="width: 18rem;">
           <img :src="icons[index]" class="card-img-top bg-white h-25 w-25" alt="...">
           <div class="card-body bg-white">
-            <h5 class="card-title bg-white text-left">Card title</h5>
-            <p
-              class="card-text bg-white text-left"
-            >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title bg-white text-left">{{card.name}}</h5>
+            <p class="card-text bg-white text-left">{{card.amount}}</p>
           </div>
         </div>
       </div>

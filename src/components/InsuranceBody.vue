@@ -26,7 +26,7 @@
               <button class="btn btn-warning">make a claim</button>
             </div>
             <div class="col">
-              <button class="btn btn-warning">make a claim</button>
+              <a class="link">More Actions</a>
             </div>
             <!-- <div class="row"> -->
 
