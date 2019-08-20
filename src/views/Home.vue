@@ -25,6 +25,16 @@ import Ibody from "@/components/InsuranceBody.vue";
 export default {
   name: "home",
 
+  created() {
+    this.getData();
+  },
+
+  methods: {
+    getData() {
+      this.$store.dispatch("fetchData");
+    }
+  },
+
   data() {
     return {
       cards: [
