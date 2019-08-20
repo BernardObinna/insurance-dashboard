@@ -6,7 +6,7 @@
       <p class="col-2">Insurance Type</p>
       <p class="col-2">Amount</p>
       <p class="col-2">Date</p>
-      <p class="col-2">Status</p>
+      <p class="col-2 pr-5">Status</p>
       <p class="col-3">Action</p>
     </div>
     <ul class="list-group list-group-flush">
@@ -20,7 +20,12 @@
           <p class="col-lg-2 pr-5">{{application.insuranceType}}</p>
           <p class="col-lg-2 pr-4">{{application.amount}}</p>
           <p class="col-lg-2 pr-5">{{application.createdDate}}</p>
-          <p class="col-lg-2 pr-5">{{application.complete}}</p>
+          <p
+            v-if="application.complete "
+            class="col-lg-2 bg-gradient-success text-success pr-5"
+          >Completed</p>
+          <p v-else class="col-lg-2 bg-danger-faded text-danger pr-5">Incomplete</p>
+
           <div class="col-lg-3 row">
             <div class="col">
               <button class="btn btn-warning">make a claim</button>
