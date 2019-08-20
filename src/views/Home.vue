@@ -1,15 +1,17 @@
 <template>
-  <div class>
+  <div class="body">
     <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <Nav/>
-    <header class="text-left">
-      <h4>Welcome, Lois!</h4>
-      <h6 class="faded">Monday, july 22, 2019</h6>
-    </header>
-    <Cards :cards="cards"/>
-    <Ibody :applications="applications"/>
-    <button class="btn btn-secondary">jump</button>
+    <div class="m-5">
+      <header class="text-left">
+        <h4>Welcome, Lois!</h4>
+        <h6 class="faded">Monday, july 22, 2019</h6>
+      </header>
+      <Cards :cards="cards"/>
+      <Ibody :applications="applications"/>
+      <button class="btn btn-secondary">jump</button>
+    </div>
   </div>
 </template>
 

@@ -1,14 +1,32 @@
 * {
     // background-color: aqua;
     box-sizing: border-box;
+    background-color: red;
+    // background-color: #FBFBFD;
+
 }
 
 .clippy {
     clip-path: polygon(75% 0, 100% 25%, 100% 60%, 100% 100%, 25% 100%, 0 75%, 0 0);
-    
+
     // background-color: #00CB3C
 }
 
 .clippyBack {
     background-color: #00CBA6;
 }
+
+.card * {
+    // background-color: white
+}
+
+// .applications :nth-of-type(odd) *,
+.card ul>li.applications :nth-child(odd) {
+    // background-color: #F8F7F6;
+    // background-color: blue;
+}
+
+
+// .body {
+//     background-color: #FBFBFD;
+// }

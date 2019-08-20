@@ -1,7 +1,7 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white px-5 py-3">
     <router-link class="nav-link" to="/">
-      <img src="@/assets/Icon-color.svg" alt>
+      <img class="bg-white" src="@/assets/Icon-color.svg" alt>
     </router-link>
 
     <button
@@ -16,19 +16,19 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <div class="collapse navbar-collapse bg-white" id="navbarTogglerDemo02">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item">
+        <li class="nav-item bg-white">
           <!-- <a class="nav-link" href="#">
             Dashboard
             <span class="sr-only">(current)</span>
           </a>-->
           <router-link class="nav-link" to="/">Dashboard</router-link>
         </li>
-        <li class="nav-item">
+        <li class="nav-item bg-white">
           <a class="nav-link" href="#">Buy Insurance</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item bg-white">
           <!-- <a class="nav-link" href="#">Account Settings</a> -->
           <router-link class="nav-link" to="/account">Account Settings</router-link>
         </li>
@@ -41,7 +41,7 @@
         <!-- <button type="button" class="clippy">LD</button> -->
         <div class="btn btn-success clippy">LD</div>
       </div>
-      <div class="dropdown">
+      <div class="dropdown bg-white">
         <!-- <button class="btn btn-light dropdown"> -->
         <a
           class="dropdown-toggle"

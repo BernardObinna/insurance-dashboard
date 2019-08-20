@@ -10,7 +10,11 @@
       <p class="col-3">Action</p>
     </div>
     <ul class="list-group list-group-flush">
-      <li v-for="(application , index) in applications" :key="index" class="list-group-item">
+      <li
+        v-for="(application , index) in applications"
+        :key="index"
+        class="list-group-item applications"
+      >
         <div class="row">
           <p class="col-1 text-left">{{index+1}}</p>
           <p class="col-2">{{application.type}}</p>
@@ -30,6 +34,7 @@
           </div>
         </div>
       </li>
+
       <!-- <li class="list-group-item">Dapibus ac facilisis in</li>
       <li class="list-group-item">Vestibulum at eros</li>-->
     </ul>
