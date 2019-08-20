@@ -8,7 +8,10 @@
 
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title text-left">PERSONAL INFORMATION</h5>
+          <div class="row">
+            <img class="pl-3" src="@/assets/Svg.svg" alt>
+            <h5 class="card-title pl-3 pt-3 text-left">PERSONAL INFORMATION</h5>
+          </div>
           <p
             class="card-text text-left"
           >Use this page to update your contact information and change your passsword</p>
@@ -57,7 +60,7 @@
                 <input type="date" class="form-control" id="inputEmail4" value="1990-07-15">
               </div>
             </div>
-            <button type="submit" class="btn btn-warning">Save Changes</button>
+            <button type="submit" class="btn btn-warning orange">Save Changes</button>
           </form>
 
           <form class="text-left">
@@ -75,7 +78,7 @@
                 <input type="password" class="form-control" id="inputEmail4">
               </div>
             </div>
-            <button type="submit" class="btn btn-warning">Save Changes</button>
+            <button type="submit" class="btn btn-warning orange">Save Changes</button>
           </form>
         </div>
       </div>
@@ -116,7 +119,7 @@
                 <input type="text" class="form-control" id="inputEmail4">
               </div>
             </div>
-            <button type="submit" class="btn btn-warning">Save Changes</button>
+            <button type="submit" class="btn btn-warning orange">Save Changes</button>
           </form>
         </div>
       </div>

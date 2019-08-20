@@ -1,7 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: red;
 }
 
 .clippy {
@@ -11,5 +10,17 @@
 
 .clippyBack {
   background-color: #00CBA6;
+}
+
+.orange {
+  background-color: #F58634;
+}
+
+.completed {
+  background-color: rgba(106, 221, 14, 0.2);
+}
+
+.incomplete {
+  background: rgba(253, 82, 98, 0.2);
 }
 /*# sourceMappingURL=main.css.map */

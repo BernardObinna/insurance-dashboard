@@ -20,15 +20,16 @@
           <p class="col-lg-2 pr-5">{{application.insuranceType}}</p>
           <p class="col-lg-2 pr-4">{{application.amount}}</p>
           <p class="col-lg-2 pr-5">{{application.createdDate}}</p>
-          <p
-            v-if="application.complete "
-            class="col-lg-2 bg-gradient-success text-success pr-5"
-          >Completed</p>
-          <p v-else class="col-lg-2 bg-danger-faded text-danger pr-5">Incomplete</p>
+          <p v-if="application.complete " class="col-lg-2 text-success pr-5">
+            <a class="btn btn-sm completed">Completed</a>
+          </p>
+          <p v-else class="col-lg-2 bg-danger-faded text-danger pr-5">
+            <a class="btn btn-sm incomplete">Inomplete</a>
+          </p>
 
           <div class="col-lg-3 row">
             <div class="col">
-              <button class="btn btn-warning">make a claim</button>
+              <button class="btn btn-warning orange">make a claim</button>
             </div>
             <div class="col">
               <!-- <a class="link">More Actions</a> -->
@@ -39,7 +40,7 @@
                   aria-haspopup="true"
                   aria-expanded="false"
                   data-offset="60,0"
-                >Dropright</a>
+                >More Actions</a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="#">Make a claim</a>
                   <a class="dropdown-item" href="#">View Policy</a>
