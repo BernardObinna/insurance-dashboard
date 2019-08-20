@@ -18,7 +18,7 @@ export default new Vuex.Store({
     populateStatisticsData: (state, payload) => {
       // console.log(payload);
       state.statistics = payload.statistics;
-      console.log(state.statistics);
+      // console.log(state.statistics);
     }
   },
   actions: {

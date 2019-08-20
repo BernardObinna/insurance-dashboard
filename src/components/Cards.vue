@@ -2,7 +2,8 @@
   <div class>
     <div class="row">
       <!-- <p>{{bla}}</p> -->
-      <div class="col mb-md-5 mt-4" v-for="(card,index) in cards" :key="index">
+      <div class="col mb-md-5 mt-4" v-for="(card,index) in getStats" :key="index">
+        <p>{{card}}</p>
         <div class="card w-100 px-4 py-3" style="width: 18rem;">
           <img :src="icons[index]" class="card-img-top bg-white h-25 w-25" alt="...">
           <div class="card-body bg-white">
@@ -18,12 +19,34 @@
 <script>
 export default {
   props: {
-    cards: {}
+    statistics: {}
   },
 
+  computed: {
+    getStats() {
+      const stats = this.statistics;
+      console.log(stats);
+      // return this.data
+      return stats;
+    }
+  },
+
+  created() {
+    // console.log(this.statistics);
+    // console.log(this.stat);
+  },
+  mounted() {
+    this.fix();
+  },
+  methods: {
+    fix() {
+      // console.log(this.stat);
+    }
+  },
   data() {
     return {
       // bla: "hdhgkrgnkngkngkjg"
+      stat: this.statistics,
       icons:
         // {
         [
