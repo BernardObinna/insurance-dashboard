@@ -59,6 +59,27 @@ export default {
       }
       return statistics;
       // console.log(this.statisticsData);
+    },
+    applications() {
+      const stat = this.$store.state.applications;
+      let statistics = this.applicationsData;
+      // if (stat) {
+      //   const statArray = Object.values(stat);
+
+      //   // statistics = this.statisticsData.map((data, index) => {
+      //   //   data.amount = statArray[index];
+      //   // });
+      //   // console.log(statistics);
+
+      //   this.statisticsData[0].amount = statArray[0];
+      //   this.statisticsData[1].amount = statArray[1];
+      //   this.statisticsData[2].amount = statArray[2];
+      //   this.statisticsData[3].amount = statArray[3];
+      // }
+      this.applicationsData = stat;
+      // return statistics;
+      return this.applicationsData;
+      console.log(this.applicationsData);
     }
   },
 
@@ -82,7 +103,7 @@ export default {
           amount: 1400000
         }
       ],
-      applications: [
+      applicationsData: [
         {
           type: "Insurance type",
           amount: 21000000,

@@ -3,7 +3,6 @@
     <div class="row">
       <!-- <p>{{bla}}</p> -->
       <div class="col mb-md-5 mt-4" v-for="(card,index) in getStats" :key="index">
-        <p>{{card}}</p>
         <div class="card w-100 px-4 py-3" style="width: 18rem;">
           <img :src="icons[index]" class="card-img-top bg-white h-25 w-25" alt="...">
           <div class="card-body bg-white">
@@ -25,7 +24,6 @@ export default {
   computed: {
     getStats() {
       const stats = this.statistics;
-      console.log(stats);
       // return this.data
       return stats;
     }

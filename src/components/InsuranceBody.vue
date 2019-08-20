@@ -16,12 +16,12 @@
         class="list-group-item applications"
       >
         <div class="row">
-          <p class="col-1 text-left">{{index+1}}</p>
-          <p class="col-2">{{application.type}}</p>
-          <p class="col-2">{{application.amount}}</p>
-          <p class="col-2">{{application.date}}</p>
-          <p class="col-2">{{application.status}}</p>
-          <div class="col-3 row">
+          <p class="col-lg-1 text-lg-left">{{index+1}}</p>
+          <p class="col-lg-2 pr-5">{{application.insuranceType}}</p>
+          <p class="col-lg-2 pr-4">{{application.amount}}</p>
+          <p class="col-lg-2 pr-5">{{application.createdDate}}</p>
+          <p class="col-lg-2 pr-5">{{application.complete}}</p>
+          <div class="col-lg-3 row">
             <div class="col">
               <button class="btn btn-warning">make a claim</button>
             </div>

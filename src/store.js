@@ -13,7 +13,7 @@ export default new Vuex.Store({
     populateApplicationData: (state, payload) => {
       // console.log(payload.applications);
       state.applications = payload.applications;
-      // console.log(state.applications);
+      console.log(state.applications);
     },
     populateStatisticsData: (state, payload) => {
       // console.log(payload);
