@@ -24,7 +24,13 @@
             <div class="form-row">
               <div class="form-group col-6">
                 <label for="inputEmail4">Email Address</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail4"
+                  placeholder="Email"
+                  required
+                >
               </div>
             </div>
             <div class="form-row">
