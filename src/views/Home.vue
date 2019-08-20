@@ -10,7 +10,6 @@
       </header>
       <Cards :statistics="statistics"/>
       <Ibody :applications="applications"/>
-      <button class="btn btn-secondary">jump</button>
     </div>
   </div>
 </template>

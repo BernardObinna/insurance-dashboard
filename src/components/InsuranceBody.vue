@@ -31,7 +31,21 @@
               <button class="btn btn-warning">make a claim</button>
             </div>
             <div class="col">
-              <a class="link">More Actions</a>
+              <!-- <a class="link">More Actions</a> -->
+              <div class="btn-group dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  data-offset="60,0"
+                >Dropright</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Make a claim</a>
+                  <a class="dropdown-item" href="#">View Policy</a>
+                  <!-- Dropdown menu links -->
+                </div>
+              </div>
             </div>
             <!-- <div class="row"> -->
 

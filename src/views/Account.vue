@@ -36,15 +36,25 @@
             <div class="form-row">
               <div class="form-group col-4">
                 <label for="inputEmail4">FULL NAME</label>
-                <input type="text" class="form-control" id="inputEmail4" placeholder="fullname">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputEmail4"
+                  placeholder="amarachuku@gmail.com"
+                >
               </div>
               <div class="form-group col-4">
                 <label for="inputEmail4">USER NAME</label>
-                <input type="text" class="form-control" id="inputEmail4" placeholder="Username">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputEmail4"
+                  placeholder="Olatunji Joseph"
+                >
               </div>
               <div class="form-group col-4">
-                <label for="inputEmail4">FULL NAME</label>
-                <input type="date" class="form-control" id="inputEmail4" placeholder="Email">
+                <label for="inputEmail4">BIRTH DATE</label>
+                <input type="date" class="form-control" id="inputEmail4" value="1990-07-15">
               </div>
             </div>
             <button type="submit" class="btn btn-warning">Save Changes</button>
@@ -58,11 +68,11 @@
               </div>
               <div class="form-group col-4">
                 <label for="inputEmail4">NEW PASSWORD</label>
-                <input type="password" class="form-control" id="inputEmail4" placeholder="Username">
+                <input type="password" class="form-control" id="inputEmail4">
               </div>
               <div class="form-group col-4">
                 <label for="inputEmail4">CONFIRM PASSWORD</label>
-                <input type="password" class="form-control" id="inputEmail4" placeholder="Email">
+                <input type="password" class="form-control" id="inputEmail4">
               </div>
             </div>
             <button type="submit" class="btn btn-warning">Save Changes</button>
@@ -79,7 +89,7 @@
             <div class="form-row">
               <div class="form-group col-6">
                 <label for="inputEmail4">CURRENT STATE</label>
-                <input type="text" class="form-control" id="inputEmail4" placeholder="State">
+                <input type="text" class="form-control" id="inputEmail4" placeholder="Niger">
               </div>
             </div>
             <div class="form-row">
@@ -93,7 +103,7 @@
               </div>
               <div class="form-group col-4">
                 <label for="inputEmail4">FEDERAL CONSTITUENCIES</label>
-                <input type="date" class="form-control" id="inputEmail4" placeholder="Email">
+                <input type="text" class="form-control" id="inputEmail4">
               </div>
             </div>
             <div class="form-row">

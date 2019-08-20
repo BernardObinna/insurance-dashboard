@@ -44,7 +44,7 @@
       <div class="dropdown bg-white">
         <!-- <button class="btn btn-light dropdown"> -->
         <a
-          class="dropdown-toggle"
+          class="dropdown-toggle text-dark"
           data-toggle="dropdown"
           href="#"
           role="button"
