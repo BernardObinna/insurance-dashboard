@@ -17,8 +17,8 @@
       >
         <div class="row">
           <p class="col-lg-1 text-lg-left">{{index+1}}</p>
-          <p class="col-lg-2 pr-5">{{application.insuranceType}}</p>
-          <p class="col-lg-2 pr-4">{{application.amount}}</p>
+          <p class="col-lg-2 text-lg-center pr-5">{{application.insuranceType}}</p>
+          <p class="col-lg-2 pr-4">N{{application.amount}}</p>
           <p class="col-lg-2 pr-5">{{application.createdDate}}</p>
           <p v-if="application.complete " class="col-lg-2 text-success pr-5">
             <a class="btn btn-sm completed">Completed</a>

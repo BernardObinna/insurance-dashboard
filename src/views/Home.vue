@@ -61,7 +61,14 @@ export default {
     },
     applications() {
       const stat = this.$store.state.applications;
-      let statistics = this.applicationsData;
+      // let statistics = stat.map((item, index) => {
+      //   console.log(item);
+      // });
+      //       Object.entries(obj).forEach(
+      //     ([key, value]) => console.log(key, value)
+      // );
+      // let statistics = this.applicationsData;
+
       // if (stat) {
       //   const statArray = Object.values(stat);
 
@@ -78,7 +85,7 @@ export default {
       this.applicationsData = stat;
       // return statistics;
       return this.applicationsData;
-      console.log(this.applicationsData);
+      // console.log(this.applicationsData);
     }
   },
 

@@ -6,7 +6,7 @@
         <h4>ACCOUNT SETTINGS</h4>
       </header>
 
-      <div class="card">
+      <div class="card my-5">
         <div class="card-body">
           <div class="row">
             <img class="pl-3" src="@/assets/Svg.svg" alt>
@@ -60,7 +60,7 @@
                 <input type="date" class="form-control" id="inputEmail4" value="1990-07-15">
               </div>
             </div>
-            <button type="submit" class="btn btn-warning orange">Save Changes</button>
+            <button type="submit" class="btn btn-warning my-3 orange">Save Changes</button>
           </form>
 
           <form class="text-left">
@@ -78,7 +78,7 @@
                 <input type="password" class="form-control" id="inputEmail4">
               </div>
             </div>
-            <button type="submit" class="btn btn-warning orange">Save Changes</button>
+            <button type="submit" class="btn btn-warning my-3 orange">Save Changes</button>
           </form>
         </div>
       </div>
@@ -119,7 +119,7 @@
                 <input type="text" class="form-control" id="inputEmail4">
               </div>
             </div>
-            <button type="submit" class="btn btn-warning orange">Save Changes</button>
+            <button type="submit" class="btn btn-warning my-3 orange">Save Changes</button>
           </form>
         </div>
       </div>

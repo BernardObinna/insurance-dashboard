@@ -7,7 +7,7 @@
           <img :src="icons[index]" class="card-img-top bg-white h-25 w-25" alt="...">
           <div class="card-body bg-white">
             <h5 class="card-title bg-white text-left">{{card.name}}</h5>
-            <p class="card-text bg-white text-left">{{card.amount}}</p>
+            <p class="card-text bg-white text-left">N{{card.amount}}</p>
           </div>
         </div>
       </div>
