@@ -9,7 +9,6 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: avenirNext;
-  background-color: #FBFBFD;
 }
 
 .clippy {
@@ -37,5 +36,9 @@
 
 .incomplete {
   background: rgba(253, 82, 98, 0.2);
+}
+
+.myDropdown:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

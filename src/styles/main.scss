@@ -11,7 +11,7 @@
     box-sizing: border-box;
     font-family: avenirNext;
     // background-color: red;
-    background-color: #FBFBFD;
+    // background-color: #FBFBFD;
 }
 
 .clippy {
@@ -56,6 +56,10 @@
 .card ul>li.applications :nth-child(odd) {
     // background-color: #F8F7F6;
     // background-color: blue;
+}
+
+.myDropdown:hover {
+    cursor: pointer;
 }
 
 // .body {

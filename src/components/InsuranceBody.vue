@@ -35,7 +35,7 @@
               <!-- <a class="link">More Actions</a> -->
               <div class="btn-group dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle myDropdown"
                   data-toggle="dropdown"
                   aria-haspopup="true"
                   aria-expanded="false"
