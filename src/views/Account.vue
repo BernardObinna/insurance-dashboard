@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nav/>
-    <div class="container mb-5">
+    <div class="container mt-3 mb-5">
       <header class="text-left">
         <h4>ACCOUNT SETTINGS</h4>
       </header>

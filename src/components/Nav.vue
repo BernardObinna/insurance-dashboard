@@ -36,7 +36,7 @@
 
       <!-- <div class="container"> -->
       <!-- <div class="btn-group" role="group" aria-label="Basic example"> -->
-      <div class="clippyBack">
+      <div class="clippyBack mr-3">
         <!-- <button type="button" class="btn btn-success clippy">LD</button> -->
         <!-- <button type="button" class="clippy">LD</button> -->
         <div class="btn btn-success clippy">LD</div>
