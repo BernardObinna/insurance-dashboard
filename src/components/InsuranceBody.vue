@@ -1,13 +1,13 @@
 <template>
   <div class="card w-100" style="width: 18rem;">
     <div class="card-header text-left">Insurance Applications</div>
-    <div class="row">
-      <p class="col-1 pl-4 text-left">S.N</p>
-      <p class="col-2">Insurance Type</p>
-      <p class="col-2">Amount</p>
-      <p class="col-2">Date</p>
-      <p class="col-2 pr-5">Status</p>
-      <p class="col-3">Action</p>
+    <div class="d-none d-lg-flex row">
+      <p class="col-lg-1 pl-4 text-left">S.N</p>
+      <p class="col-lg-2">Insurance Type</p>
+      <p class="col-lg-2">Amount</p>
+      <p class="col-lg-2">Date</p>
+      <p class="col-lg-2 pr-5">Status</p>
+      <p class="col-lg-3">Action</p>
     </div>
     <ul class="list-group list-group-flush">
       <li
