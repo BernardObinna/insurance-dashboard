@@ -12,6 +12,10 @@
   background-color: #00CBA6;
 }
 
+.router-link-active {
+  font-weight: 900;
+}
+
 .orange {
   background-color: #F58634;
 }

@@ -23,14 +23,14 @@
             Dashboard
             <span class="sr-only">(current)</span>
           </a>-->
-          <router-link class="nav-link" to="/">Dashboard</router-link>
+          <router-link class="nav-link" to="/" exact>Dashboard</router-link>
         </li>
         <li class="nav-item bg-white">
           <a class="nav-link" href="#">Buy Insurance</a>
         </li>
         <li class="nav-item bg-white">
           <!-- <a class="nav-link" href="#">Account Settings</a> -->
-          <router-link class="nav-link" to="/account">Account Settings</router-link>
+          <router-link class="nav-link" to="/account" exact>Account Settings</router-link>
         </li>
       </ul>
 
