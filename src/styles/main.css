@@ -1,6 +1,14 @@
+@font-face {
+  font-family: "AvenirNext";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir Next LT Pro Regular"), url("./avenir-next-pro/AvenirNextLTPro-Regular.woff") format("woff");
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: avenirNext;
 }
 
 .clippy {
@@ -9,15 +17,17 @@
 }
 
 .clippyBack {
-  background-color: #00CBA6;
+  background-color: #00cba6;
 }
 
 .router-link-active {
-  font-weight: 900;
+  font-weight: 700;
+  font-size: 15px;
+  color: #240f00;
 }
 
 .orange {
-  background-color: #F58634;
+  background-color: #f58634;
 }
 
 .completed {

@@ -1,19 +1,33 @@
+@font-face {
+    font-family: "AvenirNext";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Avenir Next LT Pro Regular"),
+        url("./avenir-next-pro/AvenirNextLTPro-Regular.woff") format("woff");
+}
+
 * {
     // background-color: aqua;
     box-sizing: border-box;
+    font-family: avenirNext;
     // background-color: red;
     // background-color: #FBFBFD;
-
 }
 
 .clippy {
-    clip-path: polygon(75% 0, 100% 25%, 100% 60%, 100% 100%, 25% 100%, 0 75%, 0 0);
+    clip-path: polygon(75% 0,
+            100% 25%,
+            100% 60%,
+            100% 100%,
+            25% 100%,
+            0 75%,
+            0 0);
 
     // background-color: #00CB3C
 }
 
 .clippyBack {
-    background-color: #00CBA6;
+    background-color: #00cba6;
 }
 
 .card * {
@@ -21,19 +35,21 @@
 }
 
 .router-link-active {
-    font-weight: 900;
+    font-weight: 700;
+    font-size: 15px;
+    color: #240f00;
 }
 
 .orange {
-    background-color: #F58634;
+    background-color: #f58634;
 }
 
 .completed {
-    background-color: rgba(106, 221, 14, 0.2)
+    background-color: rgba(106, 221, 14, 0.2);
 }
 
 .incomplete {
-    background: rgba(253, 82, 98, 0.2)
+    background: rgba(253, 82, 98, 0.2);
 }
 
 // .applications :nth-of-type(odd) *,
@@ -41,7 +57,6 @@
     // background-color: #F8F7F6;
     // background-color: blue;
 }
-
 
 // .body {
 //     background-color: #FBFBFD;
