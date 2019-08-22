@@ -18,17 +18,17 @@
 
     <div class="collapse navbar-collapse bg-white" id="navbarTogglerDemo02">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item bg-white">
+        <li class="nav-item bg-white mx-3">
           <!-- <a class="nav-link" href="#">
             Dashboard
             <span class="sr-only">(current)</span>
           </a>-->
           <router-link class="nav-link" to="/" exact>Dashboard</router-link>
         </li>
-        <li class="nav-item bg-white">
+        <li class="nav-item bg-white mx-3">
           <a class="nav-link" href="#">Buy Insurance</a>
         </li>
-        <li class="nav-item bg-white">
+        <li class="nav-item bg-white mx-3">
           <!-- <a class="nav-link" href="#">Account Settings</a> -->
           <router-link class="nav-link" to="/account" exact>Account Settings</router-link>
         </li>
@@ -41,7 +41,7 @@
         <!-- <button type="button" class="clippy">LD</button> -->
         <div class="btn btn-success clippy">LD</div>
       </div>
-      <div class="dropdown bg-white">
+      <div class="dropdown active bg-white">
         <!-- <button class="btn btn-light dropdown"> -->
         <a
           class="dropdown-toggle text-dark"
@@ -50,7 +50,7 @@
           role="button"
           aria-haspopup="true"
           aria-expanded="false"
-        >Dropdown</a>
+        >Lois Durello</a>
         <div class="dropdown-menu">
           <a class="dropdown-item" href="#">Action</a>
           <a class="dropdown-item" href="#">Another action</a>

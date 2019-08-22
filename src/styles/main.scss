@@ -18,6 +18,10 @@
     box-shadow: 0px 10px 20px rgba(46, 91, 255, 0.07);
 }
 
+.shadow-2 {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+}
+
 .clippy {
     clip-path: polygon(75% 0,
             100% 25%,
@@ -38,7 +42,8 @@
     // background-color: white
 }
 
-.router-link-active {
+.router-link-active,
+[class*="active"] {
     font-weight: 700;
     font-size: 15px;
     color: #240f00;
