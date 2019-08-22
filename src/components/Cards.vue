@@ -6,8 +6,11 @@
         <div class="card w-100 px-4 py-3" style="width: 18rem;">
           <img :src="icons[index]" class="card-img-top bg-white h-25 w-25" alt="...">
           <div class="card-body bg-white">
+            <p class="card-text bg-white text-left">
+              <span v-if="index % 2">N</span>
+              {{card.amount}}
+            </p>
             <h5 class="card-title bg-white text-left">{{card.name}}</h5>
-            <p class="card-text bg-white text-left">N{{card.amount}}</p>
           </div>
         </div>
       </div>

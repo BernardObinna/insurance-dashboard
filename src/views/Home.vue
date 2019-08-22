@@ -5,8 +5,8 @@
     <Nav/>
     <div class="m-5">
       <header class="text-left">
-        <h4>Welcome, Lois!</h4>
-        <h6 class="faded">Monday, july 22, 2019</h6>
+        <h4 class="active-lg">Welcome, Lois!</h4>
+        <h6 class="active-sm">Monday, july 22, 2019</h6>
       </header>
       <Cards :statistics="statistics"/>
       <Ibody :applications="applications"/>
