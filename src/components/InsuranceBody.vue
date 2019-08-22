@@ -1,7 +1,7 @@
 <template>
   <div class="card shadow-2 w-100" style="width: 18rem;">
-    <div class="card-header text-left">Insurance Applications</div>
-    <div class="d-none d-lg-flex row">
+    <div style="font-size:18px;" class="card-header active-xl text-left">Insurance Applications</div>
+    <div class="d-none pt-3 d-lg-flex row">
       <p class="col-lg-1 pl-4 text-left">S.N</p>
       <p class="col-lg-2">Insurance Type</p>
       <p class="col-lg-2">Amount</p>
