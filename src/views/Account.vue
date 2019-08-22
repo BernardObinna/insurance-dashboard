@@ -6,7 +6,7 @@
         <h4>ACCOUNT SETTINGS</h4>
       </header>
 
-      <div class="card my-5">
+      <div class="card shadow my-5">
         <div class="card-body">
           <div class="row">
             <img class="pl-3" src="@/assets/Svg.svg" alt>
@@ -83,7 +83,7 @@
         </div>
       </div>
 
-      <div class="card">
+      <div class="card shadow">
         <div class="card-body">
           <h5 class="card-title text-left">CHANGE STATE OF RESIDENCE</h5>
           <p class="card-text text-left">a Bit of lorem ipsum</p>

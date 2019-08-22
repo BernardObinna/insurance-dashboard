@@ -11,6 +11,11 @@
   font-family: avenirNext;
 }
 
+.shadow {
+  -webkit-box-shadow: 0px 10px 20px rgba(46, 91, 255, 0.07);
+          box-shadow: 0px 10px 20px rgba(46, 91, 255, 0.07);
+}
+
 .clippy {
   -webkit-clip-path: polygon(75% 0, 100% 25%, 100% 60%, 100% 100%, 25% 100%, 0 75%, 0 0);
           clip-path: polygon(75% 0, 100% 25%, 100% 60%, 100% 100%, 25% 100%, 0 75%, 0 0);
