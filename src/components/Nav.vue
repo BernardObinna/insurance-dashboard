@@ -41,7 +41,7 @@
         <!-- <button type="button" class="clippy">LD</button> -->
         <div class="btn btn-success clippy">LD</div>
       </div>
-      <div class="dropdown active bg-white">
+      <div class="dropdown active mr-lg-3 bg-white">
         <!-- <button class="btn btn-light dropdown"> -->
         <a
           class="dropdown-toggle text-dark"
@@ -50,11 +50,12 @@
           role="button"
           aria-haspopup="true"
           aria-expanded="false"
+          style="font-size:16px;"
         >Lois Durello</a>
-        <div class="dropdown-menu">
+        <div class="dropdown-menu mr-lg-5">
           <a class="dropdown-item" href="#">Action</a>
           <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="#">Something</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Separated link</a>
         </div>
