@@ -9,7 +9,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: avenirNext;
-  background-color: #FBFBFD;
+  background-color: #fbfbfd;
 }
 
 .shadow {
@@ -36,6 +36,13 @@
   font-weight: 700;
   font-size: 15px;
   color: #240f00;
+}
+
+.active-xl {
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: -0.8px;
+  color: #4d0032;
 }
 
 .active-lg {
