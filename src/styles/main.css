@@ -58,6 +58,17 @@
 
 .orange {
   background-color: #f58634;
+  color: white;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.orange:hover,
+.orange:active {
+  background-color: #4d0032;
+  color: white;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 .completed {
@@ -66,6 +77,11 @@
 
 .incomplete {
   background: rgba(253, 82, 98, 0.2);
+}
+
+.myDropdown {
+  color: #4d0032 !important;
+  text-decoration: underline !important;
 }
 
 .myDropdown:hover {

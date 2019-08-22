@@ -29,13 +29,13 @@
 
           <div class="col-lg-3 row">
             <div class="col">
-              <button class="btn btn-warning orange">make a claim</button>
+              <button class="btn orange">make a claim</button>
             </div>
             <div class="col">
               <!-- <a class="link">More Actions</a> -->
               <div class="btn-group dropdown">
                 <a
-                  class="nav-link dropdown-toggle myDropdown"
+                  class="nav-link myDropdown"
                   data-toggle="dropdown"
                   aria-haspopup="true"
                   aria-expanded="false"
